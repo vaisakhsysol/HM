@@ -242,12 +242,35 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 @media only screen and (max-width: 720px) {
     .menuButton{
         display: block;
+        cursor: pointer;
     }
+
     .loginBtn{
         display: none;
     }
     .navLinks{
-        display: none;
+    
+        position: fixed;
+        top: 45px;
+        right: -100%;
+        flex-direction: column;
+        background-color: white;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+    }
+
+    .links{
+        
+        padding: 10px 0;
+        margin: 5px;
+    }
+    .links:hover{
+        background-color: rgb(228, 228, 228);
+    }
+
+    .navLinks.active{
+        right: 0;
     }
 
     
