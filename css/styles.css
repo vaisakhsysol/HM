@@ -103,6 +103,11 @@ body {
     border: none;
     margin-top: 10px;
 }
+.registerBtn:hover{
+   
+    background-color: #460051;
+    
+}
 .inputIcons{
     display: flex;
     align-items: center;
@@ -237,6 +242,37 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 }
 
+.previewGrid{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 1px 3px #000000;
+
+}
+
+.featuresGridContainer{
+    margin-top: 24px;
+    display: grid;
+    padding: 0 64px;
+    text-align: center;
+    grid-template-columns:repeat(auto-fit, 290px);
+    column-gap: 20px;
+}
+
+.previewImageContainer{
+
+}
+
+.previewImage{
+    width:100%;
+    height: 150px;
+    padding: 15px;
+    border-radius: 20px;
+    
+}
+
+.heightof{
+    font-size: small;
+}
 
 @media only screen and (max-width: 720px) {
     .menuButton{
