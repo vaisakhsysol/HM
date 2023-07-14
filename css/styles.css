@@ -322,6 +322,37 @@ input[type="date"]::-webkit-calendar-picker-indicator {
         grid-template-columns:repeat(auto-fit, 350px);
         column-gap: 20px;
     }
+
+    
+.previewHeading{
+    margin-top: 104px;
+    text-align: center;
+    background-color: white;
+    width: 50%;
+}
+.previewHeading::before{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: rgb(224, 224, 224);
+    position: absolute;
+    left: 15%;
+    bottom: 12%;
+
+}
+
+.previewHeading::after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 2px;
+    background-color: rgb(224, 224, 224);
+    position: absolute;
+    right: 15%;
+    bottom: 12%;
+
+}
   }
 
   
@@ -386,11 +417,13 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     .featuresGridContainer{
         margin-top: 24px;
         display: grid;
-
         padding: 0 64px;
         text-align: center;
         grid-template-columns:repeat(auto-fit, 330px);
         column-gap: 20px;
     }
- 
+
+       
+
+
 }
