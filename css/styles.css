@@ -199,17 +199,43 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 .featureResponsiveImage{
     border-radius: 100%;
-    width:200px;
-    height: 200px;
+    width:150px;
+    height: 150px;
 }
 
 .featuresSubText{
  font-size: small;
 }
 
+.previewHeading{
+    margin-top: 104px;
+    text-align: center;
+    background-color: white;
+    width: 30%;
+}
+.previewHeading::before{
+    content: "";
+    display: block;
+    width: 200px;
+    height: 2px;
+    background-color: rgb(224, 224, 224);
+    position: absolute;
+    left: 26%;
+    bottom: 12%;
 
+}
 
+.previewHeading::after{
+    content: "";
+    display: block;
+    width: 200px;
+    height: 2px;
+    background-color: rgb(224, 224, 224);
+    position: absolute;
+    right: 26%;
+    bottom: 12%;
 
+}
 
 
 
