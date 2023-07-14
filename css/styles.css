@@ -238,20 +238,25 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 
-
 @media only screen and (max-width: 720px) {
     .menuButton{
         display: block;
         cursor: pointer;
     }
 
+  
+    .loginIcon{
+        font-size: medium;
+    }
     .loginBtn{
-        display: none;
+      position: relative;
+      
+      
     }
     .navLinks{
     
         position: fixed;
-        top: 45px;
+        top: 40px;
         right: -100%;
         flex-direction: column;
         background-color: white;
@@ -298,11 +303,14 @@ input[type="date"]::-webkit-calendar-picker-indicator {
         padding: 30px;
     }
 
+    .inputs .registerBtn{
+        width: 100%;
+    }
+
     .input-grid-container{
-        display: grid;
-        justify-content: center;
-        grid-template-columns:repeat(auto-fit, 400px);
-        column-gap: 20px;
+       
+        display: flex;
+        flex-direction: column;
         min-width: 200px;
     }
     .featuresGridContainer{
