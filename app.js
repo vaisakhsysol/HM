@@ -5,6 +5,7 @@ const navLinks = document.querySelector(".navLinks");
 
 menuButton.addEventListener("click",()=>{
     navLinks.classList.toggle("active");
+    menuButton.classList.toggle("active")
 })
 
 document.querySelectorAll(".links").forEach(n=>n.addEventListener("click", ()=>{
