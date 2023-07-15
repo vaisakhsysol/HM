@@ -432,6 +432,13 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     bottom: 12%;
 
 }
+
+.previewGrid{
+    
+    margin-top: 25px;
+ 
+
+}
   }
 
   
