@@ -1,4 +1,3 @@
-console.log("hello");
 
 const menuButton = document.querySelector(".menuButton");
 const navLinks = document.querySelector(".navLinks");
