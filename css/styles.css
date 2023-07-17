@@ -144,7 +144,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 
 .featuresHeading{
-    width: 35%;
+    width: 31%;
     text-align: center;
     margin-top: 104px;
 }
@@ -190,7 +190,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     display: grid;
     padding: 0 64px;
     text-align: center;
-    grid-template-columns:repeat(auto-fit, 290px);
+    grid-template-columns:repeat(auto-fit, 300px);
     column-gap: 20px;
 }
 .featuredGrid{
@@ -306,13 +306,61 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     transition: 0.5s;
 }
 
-
-
-
-
-
 .heightof{
     font-size: small;
+}
+
+.searchProfileContainer{
+    width: 100%;
+    margin-top: 48px;
+    padding: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 10px rgb(124, 124, 124);
+}
+
+.searchprfrofileHeadingDiv{
+    display: flex;
+    flex-direction: column;
+   
+}
+.searchprofileheading{
+    
+    text-align: start;
+    margin-bottom: 24px;
+    margin-left: 88px;
+    overflow-wrap: break-word;
+    max-width: 50%;
+   
+}
+.phoneImage{
+    width: auto;
+}
+.downloadButtonsContainer{
+
+    display: flex;
+    margin-left: 88px;
+}
+.iosDownloadButton{
+    margin-top: 120px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    border:none;
+    border-radius: 10px;
+    margin-right: 10px;
+   
+    
+}
+.appleIcon{
+    font-size: xxx-large;
+}
+.registerBtnbtm{
+    
 }
 
 @media only screen and (max-width: 720px) {
@@ -453,7 +501,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
   
 
-  @media only screen and (min-width: 721px) and (max-width: 1365px) {
+  @media only screen and (min-width: 721px) and (max-width: 1920px) {
     .input-grid-container{
         display: grid;
         justify-content: center;
@@ -502,7 +550,58 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     }
  
 }
+
+@media screen and (max-width:1175px) {
+    
+    .searchProfileContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        }
+    .phoneImage{
+        width: auto;
+    }
+
+    .searchprfrofileHeadingDiv{
+        width: auto;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    .searchprofileheading{
+        text-align: center;
+    }
+    .featuresHeadingDiv{
+        text-align: center;
+        width:100%;
+        margin: 0;
+    }
+    .downloadButtonsContainer{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        width: auto;
+    }
+
+    .iosDownloadButton{
+        margin-top: 30px;
+    }
+}
 @media only screen and (min-width:1367px) and (max-width: 1920px) {
+    .heroContainer{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(188, 188, 188);
+        background-blend-mode: multiply;
+        background-image: url("../Assets/Images/marriagrImg.png");
+        background-size: cover;
+        height: 700px;
+        background-repeat: no-repeat;
+        padding-bottom: 100px;
+        align-items: center;
+    }
+   
     .input-grid-container{
         display: grid;
         justify-content: center;
@@ -519,24 +618,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
         padding: 30px;
         
     }
-    .featuresGridContainer{
-        margin-top: 24px;
-        display: grid;
-        padding: 0 64px;
-        text-align: center;
-        grid-template-columns:repeat(auto-fit, 330px);
-        column-gap: 20px;
-    }
-
-    .previewGridContainer{
-        margin-top: 24px;
-        display: grid;
-        padding: 0 64px;
-        text-align: center;
-        grid-template-columns:repeat(auto-fit, 330px);
-        column-gap: 20px;
-    }
-       
 
 
 }
