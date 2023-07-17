@@ -21,6 +21,27 @@ body {
     cursor: pointer;
     
 }
+
+.linkHome.active{
+   color: #650075;
+   font-weight: 600;
+   border-bottom: #650075 1px solid;
+}
+.linkAbout.active{
+    color: #650075;
+    font-weight: 600;
+    border-bottom: #650075 1px solid;
+ }
+ .linkDownload.active{
+    color: #650075;
+    font-weight: 600;
+    border-bottom: #650075 1px solid;
+ }
+ .linkContact.active{
+    color: #650075;
+    font-weight: 600;
+    border-bottom: #650075 1px solid;
+ }
 .loginButtonContainer{
     display: flex;
     justify-content: center;
