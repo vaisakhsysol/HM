@@ -229,6 +229,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     border-radius: 100%;
     width:150px;
     height: 150px;
+    object-fit:cover ;
 }
 
 .featuresSubText{
@@ -292,6 +293,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     height: 150px;
     padding: 5px;
     border-radius: 14px;
+    object-fit: cover;
     
 }
 
