@@ -22,26 +22,24 @@ body {
     
 }
 
-.linkHome.active{
-   color: #650075;
-   font-weight: 600;
-   border-bottom: #650075 1px solid;
+nav a {
+    text-decoration: none;
+    color: #4c4c4c;
 }
-.linkAbout.active{
+
+nav a:hover {
+    text-decoration: none;
     color: #650075;
-    font-weight: 600;
-    border-bottom: #650075 1px solid;
- }
- .linkDownload.active{
-    color: #650075;
-    font-weight: 600;
-    border-bottom: #650075 1px solid;
- }
- .linkContact.active{
-    color: #650075;
-    font-weight: 600;
-    border-bottom: #650075 1px solid;
- }
+}
+.link .activeated{
+  
+  
+   font-weight: 600;
+   color: #650075;
+   border-bottom: #460051 1px solid;
+}
+
+
 .loginButtonContainer{
     display: flex;
     justify-content: center;
@@ -273,8 +271,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     display: grid;
     padding: 0 64px;
     text-align: center;
+    justify-content: center;
     grid-template-columns:repeat(auto-fit, 290px);
-    column-gap: 20px;
+    column-gap: 24px;
 }
 
 
@@ -403,7 +402,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .site-footer
 {
     font-family: 'Poppins';
-  background-color:#65007543;
+  background-color:#c0c0c043;
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
@@ -667,7 +666,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
         display: grid;
         padding: 0 64px;
         text-align: center;
-        justify-content: space-evenly;
+        justify-content: center;
         grid-template-columns:repeat(auto-fit, 350px);
         column-gap: 20px;
     }
@@ -762,7 +761,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     }
     .featuresGridContainer{
         margin-top: 24px;
-      
         display: grid;
         padding: 0 64px;
         text-align: center;
@@ -771,20 +769,54 @@ input[type="date"]::-webkit-calendar-picker-indicator {
         grid-template-columns:repeat(auto-fit, 310px);
         column-gap: 20px;
     }
+    /* .previewGridContainer{
+        margin-top: 24px;
+        display: grid;
+        padding: 0 64px;
+        justify-content: center;
+        text-align: center;
+        grid-template-columns:repeat(auto-fit, 300px);
+        column-gap: 20px;
+    } */
+ 
+}
+
+@media only screen and (min-width:1084px) and (max-width: 1404px){
+
+
+    .featuresGridContainer{
+        margin-top: 24px;
+        display: flex;
+        padding: 0 64px;
+        text-align: center;
+        justify-content: space-evenly;
+        justify-items: center;
+        grid-template-columns:repeat(auto-fit, 310px);
+        column-gap: 24px;
+    }
+    .hiddenGrid{
+        display: none;
+    }
+}
+
+@media only screen and (min-width:1175px) and (max-width: 1406px) {
+
     .previewGridContainer{
         margin-top: 24px;
         display: grid;
         padding: 0 64px;
-        justify-content: space-evenly;
         text-align: center;
+        justify-content: center;
         grid-template-columns:repeat(auto-fit, 300px);
         column-gap: 20px;
     }
- 
+
 }
 
 @media screen and (max-width:1175px) {
     
+  
+
     .searchProfileContainer{
         display: flex;
         flex-direction: column;
@@ -822,7 +854,21 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     .iosDownloadButton{
         margin-top: 30px;
     }
+
+    .previewGridContainer{
+        margin-top: 24px;
+        display: grid;
+        padding: 0 64px;
+        text-align: center;
+        justify-content: center;
+        grid-template-columns:repeat(auto-fit, 300px);
+        column-gap: 20px;
+    }
+
+   
 }
+
+
 @media only screen and (min-width:1367px) and (max-width: 1920px) {
     .heroContainer{
         display: flex;
@@ -852,6 +898,15 @@ input[type="date"]::-webkit-calendar-picker-indicator {
         border-radius: 5px;
         padding: 30px;
         
+    }
+    .previewGridContainer{
+        margin-top: 24px;
+        display: grid;
+        padding: 0 64px;
+        text-align: center;
+        justify-content: center;
+        grid-template-columns:repeat(auto-fit, 300px);
+        column-gap: 20px;
     }
 
 

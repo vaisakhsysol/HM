@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/d0ded53198.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Mangalya</title>
+</head>
+<body>
+
+  <header class="sticky-top">
+    <nav class="navBar">
+        <div><h2>HM</h2></div>
+        <div>
+            <ul class = "navLinks list-unstyled">
+                <li class="link ms-4 p-2"><a href="./index.html">Home</a></li>
+                <li class="link ms-4 p-2"><a href="./about.html">About</a></li>
+                <li class="link ms-4 p-2">Download</li>
+                <li class="link ms-4 p-2"> <a href="./contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <div class="loginButtonContainer">
+            <button class="loginBtn"><i class="loginIcon me-2 fa fa-thin fa-right-to-bracket"></i>Login</button>
+        </div>
+
+        <div class="menuButton">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+        
+    </nav>
+  </header>
+
+  <!-- hero section -->
+  <hero class="heroContainer">
+    <div class="heroBlurb">#ABOUT US</div>
+    <div class="heroText"><h1>Keralas Most Trusted Matrimonial Service</h1> </div>
+    <div class="registerInputSection">
+        <div class="text-center">Register Now</div>
+        <hr>
+        <form class="input-grid-container">
+            <div class="inputIcons">
+                <i class="me-2 fa fa-solid fa-user"></i>
+                <input class="inputs" type="text" id="nameOf" placeholder="Name of Bride/Groom"/>
+            </div>
+
+            <div  class="inputIcons">
+                <i class="fa-solid fa-star"></i>
+                <select class="inputs" name="relegion" id="relegion">
+                    <option value="religion">Religion</option>
+                    <option value="hindu">Hindu</option>
+                    <option value="muslim">Muslim</option>
+                    <option value="christian">Christian</option>
+                  </select>
+            </div>
+           
+
+            <div class="inputIcons">
+                <i class="me-2 fa fa-solid fa-mars"></i>
+                <select class="inputs" name="cars" id="cars">
+                    <option value="volvo">Gender</option>
+                    <option value="saab">Male</option>
+                    <option value="mercedes">Female</option>
+                  </select>
+            </div>
+              
+
+            <div class="inputIcons">
+                <i class="me-2 fa fa-solid fa-calendar-days"></i>
+                <input class="inputs"  type="number" id="age" placeholder="Age"/>
+            </div>
+            <div class="inputIcons">
+                <i class="me-2 fa fa-solid fa-phone"></i>
+                <input class="inputs"  type="phone" id="phone" placeholder="+91 "/>
+            </div>
+            <div>
+                <button class="registerBtn">
+                <i class="me-2 fa fa-solid fa-user-plus"></i>Register</button>
+            </div>
+        </form>
+        <form class="tandcContainer">
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="tandc"> I have read and agree to all the <span style="color: blue;"><a href="#" style="text-decoration: none;">terms & conditions</a></span></label><br>
+          </form>
+    </div>
+  </hero>
+
+
+
+  
+<script src="./app.js">
+
+</script>
+</body>
+</html>
